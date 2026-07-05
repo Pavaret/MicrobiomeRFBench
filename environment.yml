@@ -1,0 +1,12 @@
+name: microbiome-rf-bench
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scikit-learn=1.6.1
+  - scipy=1.13.1
+  - matplotlib=3.10.0
+  - joblib=1.4.2
+  # - Boruta        # optional: only for `--prescreen boruta`

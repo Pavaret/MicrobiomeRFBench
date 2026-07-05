@@ -1,0 +1,5 @@
+run_id	disease_group	feature_set	base_seed	observed_auc	n_permutations_requested	n_permutations_completed	n_null_auc_ge_observed	p_value
+RA_pathway_only_all_features	RA	pathway_only	42	0.4210526315789474	1000	1000	516	0.5164835164835165
+RA_species_diversity_all_features	RA	species_diversity	42	0.6578947368421053	1000	1000	71	0.0719280719280719
+PsA_pathway_only_all_features	PsA	pathway_only	42	0.7104072398190046	1000	1000	38	0.0389610389610389
+PsA_species_diversity_all_features	PsA	species_diversity	42	0.5067873303167421	1000	1000	318	0.3186813186813186

@@ -1,0 +1,20 @@
+# Python 3.12 recommended. Versions pinned to those used for the published run.
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.6.1
+scipy==1.13.1
+matplotlib==3.10.0
+joblib==1.4.2
+# Boruta   # optional — only needed for `--prescreen boruta` (NOT the default).
+#
+# Notes
+# -----
+# * scipy is used only for the exact two-sided t critical value of the 95% CI. It
+#   is already a scikit-learn dependency; the pipeline falls back to a hardcoded
+#   t-table if scipy ever fails to import.
+# * The default `--prescreen rf_fallback` does NOT use Boruta; it forces the
+#   RF-importance top-50 screen and reproduces the published models. Install
+#   Boruta only if you want to run `--prescreen boruta`.
+# * The pipeline caps BLAS/OpenMP threads to 1 internally (set before importing
+#   numpy) and parallelises across CV folds / permutations with joblib instead;
+#   control the worker count with `--n-cores`.

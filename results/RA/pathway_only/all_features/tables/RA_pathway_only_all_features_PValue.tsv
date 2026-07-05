@@ -1,0 +1,2 @@
+run_id	disease_group	feature_set	base_seed	observed_auc	n_permutations_requested	n_permutations_completed	n_null_auc_ge_observed	p_value
+RA_pathway_only_all_features	RA	pathway_only	42	0.4210526315789474	1000	1000	516	0.5164835164835165

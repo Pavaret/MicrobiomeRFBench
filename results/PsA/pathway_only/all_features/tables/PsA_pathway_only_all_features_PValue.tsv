@@ -1,0 +1,2 @@
+run_id	disease_group	feature_set	base_seed	observed_auc	n_permutations_requested	n_permutations_completed	n_null_auc_ge_observed	p_value
+PsA_pathway_only_all_features	PsA	pathway_only	42	0.7104072398190046	1000	1000	38	0.0389610389610389

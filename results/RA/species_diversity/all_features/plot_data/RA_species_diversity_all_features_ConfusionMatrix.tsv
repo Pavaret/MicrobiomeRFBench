@@ -1,0 +1,5 @@
+run_id	disease_group	feature_set	true_label	predicted_label	count
+RA_species_diversity_all_features	RA	species_diversity	remission	remission	16
+RA_species_diversity_all_features	RA	species_diversity	remission	inefficiency	3
+RA_species_diversity_all_features	RA	species_diversity	inefficiency	remission	8
+RA_species_diversity_all_features	RA	species_diversity	inefficiency	inefficiency	2

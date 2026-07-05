@@ -1,0 +1,5 @@
+disease_group	feature_set	pathway_file	species_file
+RA	pathway_only	RA_pathways_relab_with_diversity.tsv	RA_species_relab_with_diversity.tsv
+RA	species_diversity	RA_pathways_relab_with_diversity.tsv	RA_species_relab_with_diversity.tsv
+PsA	pathway_only	PsA_pathways_relab_with_diversity.tsv	PsA_species_relab_with_diversity.tsv
+PsA	species_diversity	PsA_pathways_relab_with_diversity.tsv	PsA_species_relab_with_diversity.tsv

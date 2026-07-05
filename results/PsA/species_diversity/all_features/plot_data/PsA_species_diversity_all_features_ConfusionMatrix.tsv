@@ -1,0 +1,5 @@
+run_id	disease_group	feature_set	true_label	predicted_label	count
+PsA_species_diversity_all_features	PsA	species_diversity	remission	remission	12
+PsA_species_diversity_all_features	PsA	species_diversity	remission	inefficiency	5
+PsA_species_diversity_all_features	PsA	species_diversity	inefficiency	remission	8
+PsA_species_diversity_all_features	PsA	species_diversity	inefficiency	inefficiency	5

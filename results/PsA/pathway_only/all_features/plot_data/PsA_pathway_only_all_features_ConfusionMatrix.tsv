@@ -1,0 +1,5 @@
+run_id	disease_group	feature_set	true_label	predicted_label	count
+PsA_pathway_only_all_features	PsA	pathway_only	remission	remission	14
+PsA_pathway_only_all_features	PsA	pathway_only	remission	inefficiency	3
+PsA_pathway_only_all_features	PsA	pathway_only	inefficiency	remission	7
+PsA_pathway_only_all_features	PsA	pathway_only	inefficiency	inefficiency	6
