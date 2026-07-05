@@ -54,7 +54,7 @@ null for all four models) is in [`results/figures_gallery/`](results/figures_gal
 
 ---
 
-## What the confidence band means (please read)
+## What the confidence band means
 
 The 100 repeats **re-run the same nested cross-validation** with different random
 seeds. The held-out samples and the patients are **identical** across repeats;
