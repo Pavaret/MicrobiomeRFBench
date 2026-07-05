@@ -27,15 +27,10 @@ of the base-seed model.
 
 | Group | Feature set | n (inefficiency / remission) | Features | Mean AUROC [95% CI] | Permutation p |
 |:-----:|:------------|:----------------------------:|:--------:|:-------------------:|:-------------:|
-| **PsA** | `pathway_only`       | 30 (13 / 17) | 552  | **0.700** [0.696, 0.705] | **0.039** |
-| **RA**  | `species_diversity`  | 29 (10 / 19) | 1290 | **0.678** [0.671, 0.685] | 0.072 |
+| PsA | `pathway_only`       | 30 (13 / 17) | 552  | 0.700 [0.696, 0.705] | 0.039 |
+| RA  | `species_diversity`  | 29 (10 / 19) | 1290 | 0.678 [0.671, 0.685] | 0.072 |
 | PsA | `species_diversity`  | 30 (13 / 17) | 1237 | 0.503 [0.496, 0.511] | 0.319 |
 | RA  | `pathway_only`       | 29 (10 / 19) | 569  | 0.396 [0.386, 0.406] | 0.516 |
-
-Only the **PsA pathway** model separates responders from non-responders
-significantly better than chance (p = 0.039); the RA species/diversity model is
-suggestive (p = 0.072). The two remaining models are at chance level — reported
-here for completeness and as negative controls.
 
 ### Example figures
 
