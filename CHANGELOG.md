@@ -24,13 +24,3 @@ First public release.
   (`results/`), and documentation (`README.md`, `docs/METHODS.md`,
   `data/README.md`, `results/README.md`).
 
-### Removed / not included
-- The top-percentile-cutoff gradient (`top005pct … top099pct`) of the original
-  permutation pipeline — only the all-feature model is run.
-- Absolute / cluster paths and scheduler-specific launchers: paths now default to
-  the repository layout (`../data`, `../results`) relative to the script.
-- Clinical and identifying metadata from the input tables (the pipeline never
-  reads it); only the feature matrix, alpha-diversity rows and the `MTX_response`
-  label are shipped.
-- The large per-fold tables are omitted from the example bundle (still produced by
-  the pipeline with `--write-fold-tables`).
